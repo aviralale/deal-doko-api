@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        color: #333;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .header {
+        background-color: #4a6ee0;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .product {
+        border: 1px solid #ddd;
+        margin: 15px 0;
+        padding: 15px;
+        border-radius: 5px;
+      }
+      .product-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .price {
+        font-size: 16px;
+        color: #e44d26;
+        font-weight: bold;
+      }
+      .price-drop {
+        background-color: #ffecec;
+        padding: 5px;
+        border-radius: 3px;
+      }
+      .btn {
+        display: inline-block;
+        background-color: #4a6ee0;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .footer {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 12px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Daily Price Drops Update</h1>
+    </div>
+
+    <p>Hello {{ user.username }},</p>
+
+    <p>Here are the latest price drops for your tracked products:</p>
+
+    {% for product in products %}
+    <div class="product">
+      <div class="product-title">{{ product.title }}</div>
+
+      {% if product.image_url %}
+      <img
+        src="{{ product.image_url }}"
+        alt="{{ product.title }}"
+        width="100"
+      />
+      {% endif %}
+
+      <p class="price">Current Price: Rs. {{ product.current_price }}</p>
+
+      {% with price_drop=product.highest_price|add:"-{{ product.current_price
+      }}" %}
+      <p class="price-drop">
+        Price Drop: Rs. {{ price_drop }} ({% widthratio price_drop
+        product.highest_price 100 %}% off)
+      </p>
+      {% endwith %}
+
+      <a href="{{ product.url }}" class="btn">View Product</a>
+      <a href="{{ product.buy_now_url }}" class="btn">Buy Now</a>
+    </div>
+    {% endfor %}
+
+    <p>Happy shopping!</p>
+
+    <div class="footer">
+      <p>
+        You're receiving this email because you've subscribed to daily price
+        drop notifications.
+      </p>
+      <a href="{{ unsubscribe_url }}">Update your preferences</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+2025-03-23 17:26:27,030 - __main__ - INFO - Scraping product from daraz: https://www.daraz.com.np/products/usb-rechargeable-electric-mosquito-bat-handheld-racket-insect-fly-bug-wasp-killer-electric-bat-i289699003-s1335548436.html
+2025-03-23 17:26:27,716 - __main__ - INFO - Saved raw HTML for daraz
+2025-03-23 17:26:27,738 - __main__ - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 17:26:27,739 - __main__ - INFO - Found title: USB Rechargeable Electric Mosquito Bat | Handheld Racket Insect Fly Bug Wasp Killer | Electric Bat
+2025-03-23 17:26:27,742 - __main__ - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 17:26:27,811 - __main__ - INFO - Found potential prices: [1000.0, 100.0, 1000.0, 1.0, 1.0, 0.0, 0.0]
+2025-03-23 17:26:27,811 - __main__ - INFO - Fallback price extraction found: 1.0
+2025-03-23 17:26:27,812 - __main__ - INFO - Final scraped data: {'title': 'USB Rechargeable Electric Mosquito Bat | Handheld Racket Insect Fly Bug Wasp Killer | Electric Bat', 'price': 1.0, 'image_url': 'https://img.drz.lazcdn.com/static/np/p/8511cff0cbde8c362532b346de0c729f.jpg_720x720q80.jpg_.webp', 'description': ''}
+2025-03-23 11:43:35,646 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/views.py changed, reloading.
+2025-03-23 11:43:38,997 - django.request - WARNING - Bad Request: /api/products/
+2025-03-23 11:43:45,448 - django.request - WARNING - Bad Request: /api/products/
+2025-03-23 11:44:00,117 - tracker.utils - INFO - Scraping product from daraz: https://www.daraz.com.np/products/cotton-sleeveless-hooded-gym-wear-for-men-comfortable-ideal-for-workouts-i133180298-s1052493990.html?pvid=f9764cb4-9a7f-48ee-8361-522c04ebf488&search=jfy&scm=1007.51705.413671.0&spm=a2a0e.tm80335409.just4u.d_133180298
+2025-03-23 11:44:00,937 - tracker.utils - INFO - Saved raw HTML for daraz
+2025-03-23 11:44:00,962 - tracker.utils - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 11:44:00,963 - tracker.utils - INFO - Found title: Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts
+2025-03-23 11:44:00,966 - tracker.utils - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 11:44:01,050 - tracker.utils - INFO - Found potential prices: [799.0, 100.0, 799.0, 1.0, 1.0, 0.0, 0.0]
+2025-03-23 11:44:01,050 - tracker.utils - INFO - Fallback price extraction found: 1.0
+2025-03-23 11:44:01,050 - tracker.utils - INFO - Final scraped data: {'title': 'Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts', 'price': 1.0, 'image_url': 'https://img.drz.lazcdn.com/g/kf/S7095c13169104b1191bf7b9b8fc9cbc9B.jpg_720x720q80.jpg_.webp', 'description': ''}
+2025-03-23 11:44:42,553 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/utils.py changed, reloading.
+2025-03-23 17:29:51,849 - __main__ - INFO - Scraping product from daraz: https://www.daraz.com.np/products/cotton-sleeveless-hooded-gym-wear-for-men-comfortable-ideal-for-workouts-i133180298-s1052493990.html?pvid=f9764cb4-9a7f-48ee-8361-522c04ebf488&search=jfy&scm=1007.51705.413671.0&spm=a2a0e.tm80335409.just4u.d_133180298
+2025-03-23 17:29:52,564 - __main__ - INFO - Saved raw HTML for daraz
+2025-03-23 17:29:52,590 - __main__ - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 17:29:52,590 - __main__ - INFO - Found title: Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts
+2025-03-23 17:29:52,593 - __main__ - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 17:29:52,689 - __main__ - INFO - Found potential prices: [799.0, 100.0, 799.0, 1.0, 1.0, 0.0, 0.0]
+2025-03-23 17:29:52,690 - __main__ - INFO - Fallback price extraction found: 1.0
+2025-03-23 17:29:52,690 - __main__ - INFO - Final scraped data: {'title': 'Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts', 'price': 1.0, 'image_url': 'https://img.drz.lazcdn.com/g/kf/S7095c13169104b1191bf7b9b8fc9cbc9B.jpg_720x720q80.jpg_.webp', 'description': ''}
+2025-03-23 11:46:40,320 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/utils.py changed, reloading.
+2025-03-23 17:31:45,224 - __main__ - INFO - Scraping product from daraz: https://www.daraz.com.np/products/cotton-sleeveless-hooded-gym-wear-for-men-comfortable-ideal-for-workouts-i133180298-s1052493990.html?pvid=f9764cb4-9a7f-48ee-8361-522c04ebf488&search=jfy&scm=1007.51705.413671.0&spm=a2a0e.tm80335409.just4u.d_133180298
+2025-03-23 17:31:46,080 - __main__ - INFO - Saved raw HTML for daraz
+2025-03-23 17:31:46,103 - __main__ - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 17:31:46,103 - __main__ - INFO - Found title: Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts
+2025-03-23 17:31:46,109 - __main__ - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 17:31:46,194 - __main__ - INFO - Found potential prices: [799.0, 100.0, 799.0, 1.0, 1.0, 0.0, 0.0]
+2025-03-23 17:31:46,194 - __main__ - INFO - Fallback price extraction found: 1.0
+2025-03-23 17:31:46,194 - __main__ - INFO - Final scraped data: {'title': 'Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts', 'price': 1.0, 'image_url': 'https://img.drz.lazcdn.com/g/kf/S7095c13169104b1191bf7b9b8fc9cbc9B.jpg_720x720q80.jpg_.webp', 'description': ''}
+2025-03-23 11:47:37,957 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/utils.py changed, reloading.
+2025-03-23 17:32:40,684 - __main__ - INFO - Scraping product from daraz: https://www.daraz.com.np/products/cotton-sleeveless-hooded-gym-wear-for-men-comfortable-ideal-for-workouts-i133180298-s1052493990.html?pvid=f9764cb4-9a7f-48ee-8361-522c04ebf488&search=jfy&scm=1007.51705.413671.0&spm=a2a0e.tm80335409.just4u.d_133180298
+2025-03-23 17:32:41,536 - __main__ - INFO - Saved raw HTML for daraz
+2025-03-23 17:32:41,560 - __main__ - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 17:32:41,561 - __main__ - INFO - Found title: Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts
+2025-03-23 17:32:41,567 - __main__ - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 17:32:41,577 - __main__ - INFO - Found potential prices: [0.0, 799.0, 799.0, 100.0]
+2025-03-23 17:32:41,577 - __main__ - INFO - Fallback price extraction found: 799.0
+2025-03-23 17:32:41,577 - __main__ - INFO - Final scraped data: {'title': 'Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts', 'price': 799.0, 'image_url': 'https://img.drz.lazcdn.com/g/kf/S7095c13169104b1191bf7b9b8fc9cbc9B.jpg_720x720q80.jpg_.webp', 'description': ''}
+2025-03-23 11:47:48,123 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/utils.py changed, reloading.
+2025-03-23 17:32:53,137 - __main__ - INFO - Scraping product from daraz: https://www.daraz.com.np/products/cotton-sleeveless-hooded-gym-wear-for-men-comfortable-ideal-for-workouts-i133180298-s1052493990.html?pvid=f9764cb4-9a7f-48ee-8361-522c04ebf488&search=jfy&scm=1007.51705.413671.0&spm=a2a0e.tm80335409.just4u.d_133180298
+2025-03-23 17:32:53,852 - __main__ - INFO - Saved raw HTML for daraz
+2025-03-23 17:32:53,874 - __main__ - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 17:32:53,875 - __main__ - INFO - Found title: Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts
+2025-03-23 17:32:53,880 - __main__ - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 17:32:53,889 - __main__ - INFO - Found potential prices: [0.0, 799.0, 799.0, 100.0]
+2025-03-23 17:32:53,890 - __main__ - INFO - Fallback price extraction found: 799.0
+2025-03-23 17:32:53,890 - __main__ - INFO - Final scraped data: {'title': 'Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts', 'price': 799.0, 'image_url': 'https://img.drz.lazcdn.com/g/kf/S7095c13169104b1191bf7b9b8fc9cbc9B.jpg_720x720q80.jpg_.webp', 'description': ''}
+2025-03-23 17:32:54,998 - __main__ - INFO - Scraping product from daraz: https://www.daraz.com.np/products/cotton-sleeveless-hooded-gym-wear-for-men-comfortable-ideal-for-workouts-i133180298-s1052493990.html?pvid=f9764cb4-9a7f-48ee-8361-522c04ebf488&search=jfy&scm=1007.51705.413671.0&spm=a2a0e.tm80335409.just4u.d_133180298
+2025-03-23 17:32:55,883 - __main__ - INFO - Saved raw HTML for daraz
+2025-03-23 17:32:55,906 - __main__ - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 17:32:55,906 - __main__ - INFO - Found title: Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts
+2025-03-23 17:32:55,911 - __main__ - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 17:32:55,921 - __main__ - INFO - Found potential prices: [0.0, 799.0, 799.0, 100.0]
+2025-03-23 17:32:55,921 - __main__ - INFO - Fallback price extraction found: 799.0
+2025-03-23 17:32:55,921 - __main__ - INFO - Final scraped data: {'title': 'Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts', 'price': 799.0, 'image_url': 'https://img.drz.lazcdn.com/g/kf/S7095c13169104b1191bf7b9b8fc9cbc9B.jpg_720x720q80.jpg_.webp', 'description': ''}
+2025-03-23 11:48:12,091 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/utils.py changed, reloading.
+2025-03-23 11:48:15,314 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/utils.py changed, reloading.
+2025-03-23 11:49:04,604 - django.request - WARNING - Bad Request: /api/products/
+2025-03-23 11:49:09,277 - django.request - WARNING - Bad Request: /api/products/
+2025-03-23 11:49:17,621 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/views.py changed, reloading.
+2025-03-23 11:49:19,767 - tracker.utils - INFO - Scraping product from daraz: https://www.daraz.com.np/products/cotton-sleeveless-hooded-gym-wear-for-men-comfortable-ideal-for-workouts-i133180298-s1052493990.html?pvid=f9764cb4-9a7f-48ee-8361-522c04ebf488&search=jfy&scm=1007.51705.413671.0&spm=a2a0e.tm80335409.just4u.d_133180298
+2025-03-23 11:49:20,925 - tracker.utils - INFO - Saved raw HTML for daraz
+2025-03-23 11:49:20,948 - tracker.utils - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 11:49:20,948 - tracker.utils - INFO - Found title: Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts
+2025-03-23 11:49:20,954 - tracker.utils - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 11:49:20,963 - tracker.utils - INFO - Found potential prices: [0.0, 799.0, 799.0, 100.0]
+2025-03-23 11:49:20,963 - tracker.utils - INFO - Fallback price extraction found: 799.0
+2025-03-23 11:49:20,963 - tracker.utils - INFO - Final scraped data: {'title': 'Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts', 'price': 799.0, 'image_url': 'https://img.drz.lazcdn.com/g/kf/S7095c13169104b1191bf7b9b8fc9cbc9B.jpg_720x720q80.jpg_.webp', 'description': ''}
+2025-03-23 11:51:50,875 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/utils.py changed, reloading.
+2025-03-23 17:37:00,756 - __main__ - INFO - Scraping product from daraz: https://www.daraz.com.np/products/cotton-sleeveless-hooded-gym-wear-for-men-comfortable-ideal-for-workouts-i133180298-s1052493990.html?pvid=f9764cb4-9a7f-48ee-8361-522c04ebf488&search=jfy&scm=1007.51705.413671.0&spm=a2a0e.tm80335409.just4u.d_133180298
+2025-03-23 17:37:01,634 - __main__ - INFO - Saved raw HTML for daraz
+2025-03-23 17:37:01,656 - __main__ - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 17:37:01,657 - __main__ - INFO - Found title: Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts
+2025-03-23 17:37:01,663 - __main__ - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 17:37:01,672 - __main__ - INFO - Found potential prices: [0.0, 799.0, 799.0, 100.0]
+2025-03-23 17:37:01,672 - __main__ - INFO - Fallback price extraction found: 799.0
+2025-03-23 17:37:01,672 - __main__ - INFO - Final scraped data: {'title': 'Cotton Sleeveless Hooded Gym Wear for Men - Comfortable, Ideal for Workouts', 'price': 799.0, 'image_url': 'https://img.drz.lazcdn.com/g/kf/S7095c13169104b1191bf7b9b8fc9cbc9B.jpg_720x720q80.jpg_.webp', 'description': ''}
+2025-03-23 11:52:42,061 - django.utils.autoreload - INFO - /media/aviral/New Volume/Projects/dealDoko/api/tracker/utils.py changed, reloading.
+2025-03-23 17:37:45,870 - __main__ - INFO - Scraping product from daraz: https://www.daraz.com.np/products/airpods-true-wirelees-bluetooth-super-sound-premium-quality-i290709810-s1342209012.html?scm=1007.51610.379274.0&pvid=ac7b5362-7946-4261-9ea6-719932e2975b&search=flashsale&spm=a2a0e.tm80335409.FlashSale.d_290709810
+2025-03-23 17:37:46,473 - __main__ - INFO - Saved raw HTML for daraz
+2025-03-23 17:37:46,495 - __main__ - INFO - JSON extraction failed or returned 0 price, trying HTML extraction
+2025-03-23 17:37:46,496 - __main__ - INFO - Found title: Airpods True Wirelees Bluetooth Super Sound Premium Quality
+2025-03-23 17:37:46,502 - __main__ - WARNING - daraz scraper returned price 0.0, trying fallback extraction
+2025-03-23 17:37:46,510 - __main__ - INFO - Found potential prices: [0.0, 1650.0, 1650.0, 100.0]
+2025-03-23 17:37:46,510 - __main__ - INFO - Fallback price extraction found: 1650.0
+2025-03-23 17:37:46,510 - __main__ - INFO - Final scraped data: {'title': 'Airpods True Wirelees Bluetooth Super Sound Premium Quality', 'price': 1650.0, 'image_url': 'https://img.drz.lazcdn.com/static/np/p/92f81bd9887354010745515664af8edd.jpg_720x720q80.jpg_.webp', 'description': ''}
